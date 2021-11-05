@@ -25,7 +25,7 @@ function mywait() {
 }
 
 function PrelimSetup(){
-  cy.visit('https://demo.seleniumeasy.com/')
+  cy.visit('http://demo.seleniumeasy.com/')
   mywait()
   cy.title().should('eq', 'Selenium Easy - Best Demo website to practice Selenium Webdriver Online')
   mywait()
